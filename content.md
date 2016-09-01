@@ -5,7 +5,13 @@
   <h2>Building VR on the Web</h2>
 </div>
 
-@you / 01 January 2016 / San Francisco, CA aframe.io  <!-- .element: class="talk-info" -->
+@andgokevin / Mozilla VR / NingJS 2016 / aframe.io  <!-- .element: class="talk-info" -->
+
+<!-- NOTES -->
+- Being in China, AliBaba
+- Job
+- Mozilla VR origins
+- Passion about WebVR
 
 ------
 
@@ -14,12 +20,14 @@
 <!-- .slide: data-autoslide="5000" data-background-video="media/video/virtualreality.mp4" data-background-video-loop="true" data-background-video-muted="true" -->
 
 <!-- NOTES -->
-- Technology that simulates physical presence in interactive and realistic 3D
-  environments
-- Next platform. From PCs -> Smartphones -> VR
+- Feel like being in worlds of limitless imagination
+- Next platform
 - Change how we work + play + communicate digitally
-- Digi-Capital forecasts $20B VR market by 2020, half Asia
-- Tell your stories about VR (e.g., I hit someone on the head while playing Fruit Ninja)
+- Forecast $20B VR market by 2020, half Asia
+- Hit someone on head playing Fruit Ninja
+- Hit ceiling Rec Room
+- Heidi tears
+- Rogers ping pong
 
 ---
 
@@ -38,13 +46,13 @@
 </div>
 
 <!-- NOTES -->
-- Free to $899
+- Range of prices
 - Tethered and untethered
 - Smartphone, gaming consoles, and PCs
 - Positional tracking vs. rotational only
 - Controllers (3DoF vs. fully tracked) vs. headset only
 - Inside-out vs. outside-in tracking systems
-- **HTC Vive** currently the most compelling
+- **HTC Vive** currently the most compelling by Steam, but never know
 
 ---
 
@@ -66,10 +74,11 @@
 </div>
 
 <!-- NOTES -->
-- App stores control approval/distribution, can take down content, single points of failure
-- Users have to go through downloads/installs
-- Proprietary tech (Unity/Unreal), steep learning curve, fragmentation,
-  cross-compat issues, siloed experiences
+- App stores and corporations control everything
+- Downloads / installs are barrier to users
+- Proprietary engines with steep learning curves
+- Platform fragmentation causes cross-compatibility issues
+- Closed, siloed experiences
 
 ------
 
@@ -93,11 +102,23 @@ An open virtual reality platform with the advantages of **the Web**
 </div>
 
 <!-- NOTES -->
-- Anyone can publish, open source, open standards
-- Traverse from world to world, not siloed experiences
-- Click a link, immediately get into an experience, easily sharable via links,
-  great for long tail bite-sized experiences
-- Can't wait for the platform to bake and crystallize for years before Web gets involved
+Open:
+- Anyone can publish
+- Open source culture with open standards
+
+Connected:
+- Traverse worlds
+- Great for long tail bite-sized experiences
+
+Instant:
+- Click a link on Twitter or Weibo, immediate VR experiences
+- No installs
+
+Transition:
+- Web has advantages
+- Need to act to make it reality
+- Web can't wait for VR to bake and crystallize
+- Prepare for the future, invent the future, get involved today
 
 ---
 
@@ -110,7 +131,7 @@ https://w3c.github.io/webvr/
 <!-- NOTES -->
 - Working W3C community group
 - Initial WebVR API by Mozilla (Vlad V.)
-- Mozilla, Google, Samsung, Microsoft, community currently drafting WebVR 1.0 API
+- Mozilla, Google, Samsung, Microsoft, community currently iterating WebVR 1.0 API
 - Optimized rendering path to headsets, 90fps+
 - Access position and rotation (pose) data
 
@@ -136,9 +157,8 @@ https://w3c.github.io/webvr/
 </div>
 
 <!-- NOTES -->
-- Browser support
 - Firefox + Chrome WebVR 1.0 hits release channels by early 2017
-- Firefox Nightly: first WebVR browser
+- Firefox Nightly: first WebVR browser back then
 - Chromium: custom Chromium builds by Brandon Jones
 - Samsung: GearVR browser, with a flag
 - Mobile Polyfill: use device motion/orientation sensors to polyfill on smartphones
@@ -150,14 +170,23 @@ https://w3c.github.io/webvr/
 ## The Web is Ready for VR
 
 <!-- NOTES -->
-- The Web is capable of VR
 - Walk in a web page, reach out with your hands
+- Fast performance, feels native
+- Active community
+- Web lots of potential and promise as open platform
 
 ---
 
 ## Metaverse
 
 <!-- .slide: data-background="media/img/metaverse.png" -->
+
+<!-- NOTES -->
+- Metaverse from Snow Crash, science fiction
+- Shared persistent collective virtual spaces
+- Alternate digital reality that the world will spend much of their time in
+- Where we live, work, play
+- Must be open, must be connected, the Web is best platform to fully realize
 
 ---
 
@@ -193,7 +222,7 @@ https://w3c.github.io/webvr/
 ```
 
 <!-- NOTES -->
-- "What if we could encapsulate all that boilerplate to just one line of HTML?"
+- "What if we could encapsulate all that boilerplate to one line just one line?"
 - Quickly go from idea to prototype without hassle
 
 ---
@@ -232,12 +261,13 @@ scene.add(box);
 A declarative framework for building virtual reality experiences on the Web
 
 <!-- NOTES -->
-- A-Frame launched December 2015 by the Mozilla VR team
-- Make it easy for anyone to create VR content
-- Further democratize the dark arts of graphics
-- Enable web developers
-- Prototype and experiment faster
-- A vehicle to kickstart WebVR ecosystem
+Launched in Dec 2015
+
+Why?
+- Easy for anyone to create VR content, no graphics knowledge
+- Enable web developers, great at growing ecosystems
+- Prototype and experiment WebVR and VR faster
+- Vehicle to kickstart WebVR ecosystem
 
 ---
 
@@ -257,7 +287,7 @@ A declarative framework for building virtual reality experiences on the Web
 <!-- .element: class="stretch" -->
 
 <!-- NOTES -->
-- Parsable: HTML arguably most accessible language in computing
+- Readable: HTML arguably most accessible language in computing
 - Declarative: visual representation of scene graph, fully represents state
 - Encapsulated: copy-and-paste HTML anywhere else and still work, no variables
 
