@@ -1,4 +1,4 @@
-<!-- .slide: class="slide__title" data-background-video="media/video/aframe-logo.mp4" data-background-video-loop="true" -->
+<!-- .slide: class="slide__title" data-background-video="media/video/aframe-logo.mp4" data-background-video-loop="true" data-state="state--bg-blue" -->
 
 <div class="talk-title">
   <h1>A-Frame</h1>
@@ -17,7 +17,7 @@
 
 # Virtual Reality  <!-- .element: data-autoslide="0" class="fragment fade-out" -->
 
-<!-- .slide: data-autoslide="5000" data-background-video="media/video/virtualreality.mp4" data-background-video-loop="true" data-background-video-muted="true" -->
+<!-- .slide: data-autoslide="5000" data-background-video="media/video/virtualreality.mp4" data-background-video-loop="true" data-background-video-muted="true" data-state="state--bg-dark" -->
 
 <!-- NOTES -->
 - Feel like being in worlds of limitless imagination
@@ -165,7 +165,7 @@ https://w3c.github.io/webvr/
 
 ---
 
-<!-- .slide: data-background-video="media/video/roomscale.mp4" -->
+<!-- .slide: data-background-video="media/video/roomscale.mp4" data-state="state--bg-dark" -->
 
 ## The Web is Ready for VR
 
@@ -190,7 +190,7 @@ https://w3c.github.io/webvr/
 
 ---
 
-<!-- .slide: data-background-video="media/video/boilerplate.mp4" -->
+<!-- .slide: data-background-video="media/video/boilerplate.mp4" data-state="state--bg-dark" -->
 
 <div class="slide__boilerplate">
   <p>Import WebVR polyfill</p>
@@ -322,7 +322,7 @@ Why?
 
 ---
 
-<!-- .slide: data-background="media/img/entity-component-system.png" data-background-size="contain" -->
+<!-- .slide: data-background="media/img/entity-component-system.png" data-background-size="contain" data-state="state--bg-white" -->
 
 <!-- NOTES -->
 - Additional analogies: smartphone, vehicle
@@ -612,6 +612,8 @@ scene.appendChild(sphere);
 
 ## With MagicaVoxel
 
+<!-- .slide: data-transition="slide-in none" -->
+
 <img data-src="media/img/magicavoxel.png">
 
 <!-- NOTES -->
@@ -622,6 +624,8 @@ scene.appendChild(sphere);
 ---
 
 ## With MagicaVoxel
+
+<!-- .slide: data-transition="none" -->
 
 <div class="stretch" data-aframe-scene="scenes/magicavoxel.html"></div>
 
